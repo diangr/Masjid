@@ -14,20 +14,351 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- Start your project here-->
-    <div style="height: 100vh">
-        <div class="flex-center flex-column">
-            <h1 class="animated fadeIn mb-4">Material Design for Bootstrap</h1>
-
-            <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
-
-            <p class="animated fadeIn text-muted">MDB Team</p>
+    <header id="main-header">
+        <!--Navbar-->
+        <nav class="navbar navbar-dark scrolling-navbar fixed-top top-nav-collapse">
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">
+                    <img src="../img/logo.png" alt="Logos">
+                </a>
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23"
+                    aria-expanded="false" aria-label="Toggle navigation"><div class="animated-icon3"><span></span><span></span><span></span><span></span></div></button>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent23">            
+                    <!-- Links -->
+                    <ul class="navbar-nav pull-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Donasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Konfirmasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Info</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+                </div>
+                <!-- Collapsible content -->
+            </div>
+        </nav>
+        <!--/.Navbar-->
+        
+        <!--Carousel Wrapper-->
+        <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <!--Mask color-->
+                    <div class="view img-gradient">
+                        <!--Image source-->
+                        <img src="../img/img-bg.png" alt="">
+                        <div class="mask rgba-indigo-light"></div>
+                    </div>
+                    
+                    <!--Caption-->
+                    <div class="carousel-caption float-left">
+                        <div class="animated fadeInDown col-md-6">
+                            <h1 class="h1-responsive">Saudaraku,</h1>
+                            <h2><span>Ayo </span>Bangun Masjid Di Surga</h2>
+                            <p>
+                                <q>Siapa yang membangun masjid karena Allah, maka Allah akan membangun baginya semisal itu di surga.</q>
+                                
+                                <span>(HR. Bukhori no. 450 dan Muslim no. 533).</span>
+                            </p>
+                            
+                            <div class="float-left">
+                                <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm">Donasi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.First slide -->
+                
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view img-gradient">
+                        <!--Image source-->
+                        <img src="../img/img-bg.png" alt="">
+                        <div class="mask rgba-indigo-light"></div>
+                    </div>
+                    
+                    <!--Caption-->
+                    <div class="carousel-caption float-left">
+                        <div class="animated fadeInDown col-md-6">
+                            <h1 class="h1-responsive">Saudaraku,</h1>
+                            <h2><span>Ayo </span>Bangun Masjid Di Surga</h2>
+                            <p>
+                                <q>Tidaklah kiamat akan tegak sehingga manusia berbangga-banggaan dalam (membangun) masjid-masjid.</q>
+                                
+                                <span>(HR. Ahmad, Abu Daud, Ibnu Majah dan yang lainnya).</span>
+                            </p>
+                            
+                            <div class="float-left">
+                                <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm">Donasi</a>
+                            </div>         
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Second slide -->
+                
+                
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view img-gradient">
+                        <!--Image source-->
+                        <img src="../img/img-bg.png" alt="">
+                        <div class="mask rgba-indigo-light"></div>
+                    </div>
+                    
+                    <!--Caption-->
+                    <div class="carousel-caption float-left">
+                        <div class="animated fadeInDown col-md-6">
+                            <h1 class="h1-responsive">Saudaraku,</h1>
+                            <h2><span>Ayo </span>Jaga Kebersihan Masjid</h2>
+                            <p>
+                                <q>Tempat yang paling dicintai Allah adalah masjid-masjidnya dan yang paling dibenci Allah adalah pasar-pasarnya.</q>
+                                
+                                <span>(HR. Muslim dari Abu Hurairah).</span>
+                            </p>
+                            
+                            <div class="float-left">
+                                <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm">Donasi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Third slide -->
+            </div> 
+            <!--/.Slides-->
         </div>
+        <!--Carousel Wrapper-->
+                    
+    </header>
+
+    <!-- <section class="main-modal"> -->
+        <!-- Modal -->
+        <div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content card-body modal-header stylish-color">
+                        <!--Header-->
+                        <div class="container pt-2">
+                            <!-- <div class="d-flex justify-content-between">
+                                </div> -->
+                            <a href="#" class="col-md-5 btn-blue">Jariyah</a>
+                            <span class="col-md-4 white-text .offset-right"><i style="font-size: 14px; padding-left: 62px!important">130 Hari Tersisa</i></span>
+                            <h2 class="d-flex justify-content-center wakaf text-uppercase white-text">Wakaf</h2>
+                            <p class="d-flex justify-content-center white-text" style="font-size: 14px;">Pembangunan Masjid Al-Munawwarah, Sukorame</p>
+                        </div>
+                        <div class="">
+                            <div class="modal-header stylish-color">
+                            </div>
+                        </div>
+                            <div class="contaner">
+                                <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"></span>
+                                </button>
+                                <!--Card-->
+                                <div class="card col-md-4 position-absolute z-index-modal-backdrop">
+                                    
+                                    <div class="stylish-color">
+                                        <div class="container pt-2">
+                                            <a href="#" class="col-md-5 btn-blue">Jariyah</a>
+                                            <span class="col-md-4 white-text"><i style="font-size: 14px; padding-left: 62px!important">130 Hari Tersisa</i></span>
+                                            <h2 class="d-flex justify-content-center wakaf text-uppercase white-text">Wakaf</h2>
+                                            <p class="d-flex justify-content-center white-text" style="font-size: 14px;">Pembangunan Masjid Al-Munawwarah, Sukorame</p>
+                                        </div>
+                                    </div>
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <!--Title-->
+                                        <sup class="grey-text">Rp</sup>
+                                        <h1 class="grey-text card-title d-flex justify-content-center">100</h1>
+                                        <p class="grey-text d-flex justify-content-center">Tidak Ada Nominal Minimal</p>
+                                        <!--Text-->
+                                        <ul class="card-text">
+                                            <li>
+                                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Investasi Akhirat</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Bermanfaat Untuk Umat</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Pahala Mengalir Tanpa Henti</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            
+                                </div>
+                                <!--/.Card-->
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <!-- Modal -->
+    <!-- </section> -->
+
+    <section id="info">
+        <div id="about-us">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>
+                        <label class="zig-zag-bottom w-100"></label>
+                        <span class="zig-zag w-100"></span>
+                        Sekilas Info
+                    </h1>
+                    <br><br>
+                    <h3>
+                        Yang Penting Ikhlas Ketika Menyumbang
+                    </h3>
+
+                    <p>Berapa pun besar sumbangan untuk masjid harus didasari niatan ikhlas karena Allah. Karena yang dimaksud lillah, kata Ibnu Hajar adalah ikhlas (karena Allah). (Fath Al-Bari, 1: 545). Jadi, pahala besar membangun masjid yang disebutkan dalam hadits yang kita kaji bisa diraih ketika kita ikhlas dalam beramal, bukan untuk cari pujian atau balasan dari manusia.</p>
+                </div>
+                    
+                <!--Card-->
+                <div class="card col-md-4 position-absolute">
+                    
+                    <div class="stylish-color">
+                        <div class="container pt-2">
+                            <a href="#" class="col-md-5 btn-blue">Jariyah</a>
+                            <span class="col-md-4 white-text"><i style="font-size: 14px; padding-left: 62px!important">130 Hari Tersisa</i></span>
+                            <h2 class="d-flex justify-content-center wakaf text-uppercase white-text">Wakaf</h2>
+                            <p class="d-flex justify-content-center white-text" style="font-size: 14px;">Pembangunan Masjid Al-Munawwarah, Sukorame</p>
+                        </div>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <sup class="grey-text">Rp</sup>
+                        <h1 class="grey-text card-title d-flex justify-content-center">100</h1>
+                        <p class="grey-text d-flex justify-content-center">Tidak Ada Nominal Minimal</p>
+                        <!--Text-->
+                        <ul class="card-text">
+                            <li>
+                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Investasi Akhirat</p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Bermanfaat Untuk Umat</p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Pahala Mengalir Tanpa Henti</p>
+                            </li>
+                        </ul>
+                    </div>
+            
+                </div>
+            <!--/.Card-->
+            </div>
+        </div>
+    </section>
+
+    <section id="info-media">
+        
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-4 icon px-4 py-4 active">
+                <div class="flex">
+                    <img src="img/donate.png" alt="">
+                    <p>Kekurangan Dana</p>
+                    <span class="price">Rp -908.791.720</span>
+                </div>
+            </div>
+            <div class="col-md-4 icon px-4 py-4">
+                <div class="flex align-items-center">
+                    <img src="img/terkumpul.png" alt="">
+                    <p>Wakaf Yang Telah Dikelola</p>
+                    <span class="price">Rp 4.592.500.000</span>
+                </div>
+            </div>
+            <div class="col-md-4 icon  py-4 py-4">
+                <div class="flex align-items-center">
+                    <img src="img/muhsinin.png" alt="">
+                    <p>Muhsinin Tergabung</p>
+                    <span class="price">18 +</span>
+                </div>
+            </div>
+        </div>    
+        <div id="note">
+            <div class="container">
+                <div class="row justify-content-center br-b">
+                    <h1>Peluang Investasi Akhirat</h1>
+                    <q class="quote">Jika manusia mati, maka terpututslah amalnya kecuali tiga perkara:  <span>(1) <span class="blue-c">sedekah jariyah</span>, (2) ilmu yang diambil manfaatnya, (3) anak shalih yang selalu didoakan orang tuanya</span></q>
+                    <p>(HR. Muslim)</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sosmed">
+            <div class="container">
+                <div class="d-flex justify-content-center icon-sosmed">
+                    <a href=""><img src="img/facebook.png" alt=""></a>
+                    <a href=""><img src="img/twitter.png" alt=""></a>
+                    <a href=""><img src="img/instagram.png" alt=""></a>
+                    <a href=""><img src="img/google-plus.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
+    
+
+    <footer id="main-footer">
+        <div class="container-fluid">
+            <p class="row d-flex justify-content-center text-uppercase copyright">Copyright &copy; 2018 Donasi Masjid All Rights Reserved</p>
+            <div class="row">
+               <a href="" class="col-md-3 box elegant-color">
+                   <h5 class="text-uppercase contact">Saya mau donasi/wakaf</h5>
+                   <img src="img/right-arrow.png" alt="">
+               </a>
+               <a href="" class="col-md-3 box green">
+                   <img src="img/whatsapp-logo.png" alt="">
+                   <h5 class="text-uppercase contact">Whatsapp</h5>
+               </a>
+               <a href="" class="col-md-3 box info-color">
+                   <img src="img/telegram.png" alt="">
+                   <h5 class="text-uppercase contact">Telegram</h5>
+               </a>
+               <a href="" class="col-md-3 box elegant-color-dark">
+                   <img src="img/grid-world.png" alt="">
+                   <h5 class="text-uppercase contact">Website</h5>
+               </a>
+            </div>
+        </div>
+    </footer>
     <!-- /Start your project here-->
 
     <!-- SCRIPTS -->
@@ -39,6 +370,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Me core JavaScript -->
+    <script type="text/javascript" src="js/style.js"></script>
 </body>
 
 </html>
